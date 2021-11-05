@@ -21,3 +21,40 @@ newDiv[2].textContent = 'Alan Horne interviews Viv Albertine of the Slits for th
 newImage[2].src = "./7GkjlZFm_400x400.jpeg";
 newImage[3].src = "./7GkjlZFm_400x400.jpeg";
 newImage[4].src = "./7GkjlZFm_400x400.jpeg";
+
+let newLink = document.querySelectorAll('a');
+newLink[1].textContent = "Bulma";
+newLink[2].textContent = "Wiki";
+newLink[2].href = "https://en.wikipedia.org/wiki/Strawberry_Switchblade";
+newLink[3].href = "https://www.songkick.com/artists/403421-strawberry-switchblade";
+newLink[4].href = "https://www.discogs.com/artist/101349-Strawberry-Switchblade";
+newLink[4].textContent = "Discogs";
+
+let newTitle = document.querySelector('title');
+newTitle.textContent = "Strawberry Switchblade";
+
+
+
+// let datatestURL = "https://www.reddit.com/search.json?limit=15&q=strawberry%20switchblade";
+
+// fetch(datatestURL)
+// .then(function (response) {
+//     if (response.status === 200) {
+//         console.log("success response");
+//         return response.json();
+//     } else {
+//         console.log("response was unsuccessful");
+//     }
+// })
+// .then(function (data) {
+//     console.log(data);
+//     console.log(data.name);
+//     console.log(data.login);
+//     console.log(data.avatar_url);
+//     console.log(data.created_at);
+//     console.log(data.node_id);
+// })
+// .catch(function (error) {
+//     console.log(error);
+// });
+
