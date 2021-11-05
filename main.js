@@ -8,6 +8,10 @@ let newParagraph = document.querySelectorAll('p');
 newParagraph[0].textContent = 'Strawberry Switchblade were a Scottish new wave/pop duo formed in Glasgow in 1981 by Jill Bryson and Rose McDowall, best known for their song "Since Yesterday" from 1985, and their flamboyant clothing with bows and polka-dots.'
 newParagraph[1].textContent = 'Jill Bryson';
 newParagraph[2].textContent = '@thetopcatjill';
+newParagraph[3].textContent = 'Jill Bryson';
+newParagraph[4].textContent = '@thetopcatjill';
+newParagraph[5].textContent = 'Jill Bryson';
+newParagraph[6].textContent = '@thetopcatjill';
 
 let newDiv = document.querySelectorAll('.content');
 newDiv[0].textContent = 'Had to say goodbye to my beautiful 19 year old cat Pigu today. So so sad.';
